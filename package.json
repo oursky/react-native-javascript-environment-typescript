@@ -1,0 +1,8 @@
+{
+  "name": "@oursky/react-native-javascript-environment-typescript",
+  "version": "0.1.0",
+  "repository": "https://github.com/oursky/react-native-javascript-environment-typescript",
+  "author": "<louischan@oursky.com>",
+  "license": "Apache-2.0",
+  "files": ["index.d.ts"]
+}
