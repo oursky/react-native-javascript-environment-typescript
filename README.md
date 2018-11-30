@@ -1,5 +1,13 @@
 # react-native-javascript-environment-typescript
 
+# Installation
+
+```sh
+yarn add --dev --exact @oursky/react-native-javascript-environment-typescript
+```
+
+# Why
+
 **WITHOUT** using [@babel/runtime](https://babeljs.io/docs/en/babel-runtime)
 
 **WITHOUT** using [@babel/runtime](https://babeljs.io/docs/en/babel-runtime)
@@ -27,3 +35,27 @@ The type definition itself is copied from [TypeScript repository](https://github
 
 1. In `tsconfig.json`, set `lib` to `["ES5", "ES2015.Promise", "ES2015.Collection", "ES2016.Array.Include"]`.
 1. In `tsconfig.json`, add `"./node_modules/@oursky/react-native-javascript-environment-typescript/index.d.ts"` to "files".
+
+# Example
+
+```json
+{
+  "include": ["src/**/*"],
+  "files": ["./node_modules/@oursky/react-native-javascript-environment-typescript/index.d.ts"],
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "commonjs",
+    "lib": ["ES5", "ES2015.Promise", "ES2015.Collection", "ES2016.Array.Include"],
+    "jsx": "React",
+    "noEmit": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true
+  }
+}
+```
