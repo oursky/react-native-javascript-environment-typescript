@@ -1,13 +1,16 @@
 # react-native-javascript-environment-typescript
 
 **WITHOUT** using [@babel/runtime](https://babeljs.io/docs/en/babel-runtime)
-**WITHOUT** using [@babel/runtime](https://babeljs.io/docs/en/babel-runtime)
+
 **WITHOUT** using [@babel/runtime](https://babeljs.io/docs/en/babel-runtime)
 
-the JavaScript environment running
+**WITHOUT** using [@babel/runtime](https://babeljs.io/docs/en/babel-runtime)
+
+The JavaScript environment running
 your code is not a fully ES2015 environment but specified in [JavaScript Environment](https://facebook.github.io/react-native/docs/javascript-environment#polyfills).
 
 Even the documentation does not tell you Map and Set are polyfilled.
+
 The exact applied polyfill are
 
 1. https://github.com/facebook/react-native/blob/v0.57.7/Libraries/Core/InitializeCore.js#L41
